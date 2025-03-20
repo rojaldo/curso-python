@@ -7,6 +7,7 @@ words = phrase.split()
 for word in words:
     print(word)
     print(f'La primera letra de la palabra es: {word[0]}; la última es: {word[-1]}')
+    pass
 
 # Ejercicio 7: Dada la cadena "Programación en Python", usa slicing para extraer la palabra "Python" y guárdala en una nueva variable
 
@@ -21,3 +22,4 @@ for word in words:
     else:
         new_word = '<No se encontró la palabra>'
 print(new_word)
+
